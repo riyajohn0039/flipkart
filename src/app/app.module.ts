@@ -21,13 +21,19 @@ const appRoute:Routes=[{
     path:'home',component:HomeComponent
   },
   {
-    path:'Cart',component:CartComponent
+    path:'cart',component:CartComponent
   },
   {
     path:'login',component:LoginComponent
   },
   {
     path:'offers',component:OffersComponent
+  },
+  {
+    path:'contact',component:ContactComponent
+  },
+  {
+  path:'seller',component:SellerComponent
   }
 ]
 @NgModule({
